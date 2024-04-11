@@ -15,8 +15,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full top-[96px] lg:top-[48px] left-0 z-50 bg-dark text-light shadow-xl px-6 py-2 h-[74px]">
-      <div className="flex w-full mx-auto justify-between text-center gap-20">
+    <nav className="fixed w-full top-[96px] lg:top-[48px] left-0 z-50 bg-dark text-light shadow-xl px-6 py-2 h-[84px]">
+      <div className="flex w-full h-full mx-auto justify-between text-center gap-20">
         <div className="flex justify-start">
           <Link
             to="/"
@@ -29,15 +29,15 @@ const Navbar = () => {
             <img
               src={goldenKeysLogo}
               alt="logo"
-              className="h-[65px] w-auto cursor-pointer object-contain pb-1"
+              className="h-[75px] w-auto cursor-pointer object-contain"
             />
-            <p className="text-primary text-[26px] cursor-pointer lg:block hidden">
+            <p className="text-primary text-[28px] cursor-pointer lg:block hidden text-lightGold font-bold font-title">
               Τα Χρυσά Κλειδιά
             </p>
           </Link>
         </div>
         <div className="flex items-center justify-end">
-        <div className="hidden lg:flex flex-row items-center justify-end gap-10">
+          <div className="hidden lg:flex flex-row items-center justify-end gap-10">
             {navbarLinks.map((link) => (
               <Link
                 to={link.link}
@@ -45,15 +45,15 @@ const Navbar = () => {
                 alt={link.alt}
                 className={`${
                   active === link.text ? "text-dark" : ""
-                } text-[20px] cursor-pointer`}
+                } text-[20px] cursor-pointer hover:text-lightGold hover:text-[22px] font-bold font-links`}
                 onClick={() => handleLinkClick(link)}
               >
                 {link.text}
               </Link>
             ))}
-        </div>
+          </div>
 
-          <div className="lg:hidden flex flex-1 justify-end items-center pb-1">
+          <div className="lg:hidden flex flex-1 justify-end items-center">
             <img
               src={mobile ? menuClose : menuOpen}
               alt="menu"

@@ -6,15 +6,15 @@ const MobileMenu = ({ active, setActive, mobile, setMobile, navbarLinks }) => {
 
   return (
     <motion.div
-      className="flex lg:hidden absolute right-0 top-[74px] w-full h-auto mx-0 my-0
-        z-10 flex-col items-end gap-60 bg-lightGold text-dark"
+      className="flex lg:hidden absolute right-0 top-[84px] w-full h-auto mx-0 my-0
+        z-10 flex-col items-center gap-60 bg-lightGold text-dark"
       variants={mobileNav}
       initial="initial"
       animate="animate"
       exit="initial"
     >
         <motion.div
-        className="flex flex-col justify-center items-center gap-4 px-16 w-[90%]"
+        className="flex flex-col justify-center items-center gap-4 px-16 my-5 w-[90%]"
         variants={linkReveal}
         initial="initial"
         animate="animate"
@@ -30,8 +30,8 @@ const MobileMenu = ({ active, setActive, mobile, setMobile, navbarLinks }) => {
               key={link.text}
               alt={link.alt}
               className={`${
-                active === link.text ? "text-dark" : ""
-              } text-[20px] cursor-pointer`}
+                  active === link.text ? "text-dark" : ""
+                } text-[20px] font-links cursor-pointer hover:bg-dark hover:text-light`}
               onClick={() => {
                 setActive(link.text);
                 setMobile(false);

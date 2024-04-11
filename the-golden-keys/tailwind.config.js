@@ -4,10 +4,9 @@ export const content = ["./index.html",
 export const theme = {
   extend: {
     fontFamily: {
-      title: ['Luckiest Guy'],
-      subtitle: ['Cinzel'],
-      body: ['Catamaran'],
-      links: ['Neucha'],
+      title: ['EB Garamond'],
+      body: ['Roboto'],
+      links: ['Zen Maru Gothic'],
       fallbacks: {
         title: ['Roboto', 'Arial', 'sans-serif'],
         body: ['Roboto', 'Arial', 'sans-serif'],
