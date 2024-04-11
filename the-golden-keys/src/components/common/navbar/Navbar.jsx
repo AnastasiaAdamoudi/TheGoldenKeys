@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
-import { navbarLinks } from "../../../constants/navbar";
+import { navbarLinks } from "../../../data/navbar";
 import { goldenKeysLogo, menuOpen, menuClose } from "../../../assets";
 import MobileMenu from "./MobileMenu";
 

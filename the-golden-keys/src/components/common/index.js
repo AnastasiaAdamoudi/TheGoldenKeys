@@ -1,6 +1,6 @@
 import Header from './header/Header';
 import Navbar from './navbar/Navbar';
 import Footer from './footer/Footer';
-import SocialMediaFloating from './social-media/SocialMediaFloating';
+import FloatingContactIcons from './floating-contact-icons/FloatingContactIcons';
 
-export { Header, Navbar, Footer, SocialMediaFloating };
+export { Header, Navbar, Footer, FloatingContactIcons };
