@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import { Header, Navbar, Footer } from "./components/common";
-import { LandingPage, Services, ImageGallery, VideoGallery, Contact } from "./pages";
+import { LandingPage, About, Services, ImageGallery, VideoGallery, Contact } from "./pages";
 
 const App = () => {
 
@@ -26,6 +26,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/images" element={<ImageGallery />} />
           <Route path="/videos" element={<VideoGallery />} />

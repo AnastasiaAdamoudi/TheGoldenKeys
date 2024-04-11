@@ -15,9 +15,9 @@ export const theme = {
       }
     },
     colors: {
-      white: "#F1F2F1",
-      black: "#0A0A0A",
-      red: "#FF3333",
+      light: "#F1F2F1",
+      dark: "#0A0A0A",
+      reddish: "#FF3333",
       darkGold: "#B08D57",
       brightGold: "#D0A339",
       lightGold: "#EECF6D",
