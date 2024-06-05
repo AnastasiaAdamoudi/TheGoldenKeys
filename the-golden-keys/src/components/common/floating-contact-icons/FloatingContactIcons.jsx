@@ -2,7 +2,7 @@ import { contactIcons } from '../../../data/contact-icons';
 
 const FloatingContactIcons = () => {
   return (
-    <div className="fixed bottom-10 left-0 z-50 flex flex-col items-end gap-2 p-4">
+    <div className="fixed bottom-10 left-0 z-20 flex flex-col items-end gap-2 p-4">
       {contactIcons.map((icon) => (
         <a
           key={icon.alt}

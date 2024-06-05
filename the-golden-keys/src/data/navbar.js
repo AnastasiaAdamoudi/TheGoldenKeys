@@ -15,14 +15,14 @@ export const navbarLinks = [
         alt: "services",
     },
     {
-        text: "Φωτογραφίες",
-        link: "/images",
-        alt: "images",
+        text: "Περιοχές Εξυπηρέτησης",
+        link: "/areas",
+        alt: "areas",
     },
     {
-        text: "Βίντεο",
-        link: "/videos",
-        alt: "videos",
+        text: "Συλλογή",
+        link: "/media",
+        alt: "media",
     },
     {
         text: "Επικοινωνία",

@@ -1,6 +1,6 @@
 import headerPhoneIcon from './header-phone-icon.svg';
 
-import goldenKeysLogo from './golden-keys-logo.svg';
+import goldenKeysLogo from './golden-keys-logo4.svg';
 import menuOpen from './menu-open.svg';
 import menuClose from './menu-close.svg';
 

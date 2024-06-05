@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full top-[96px] lg:top-[48px] left-0 z-50 bg-dark text-light shadow-xl px-6 py-2 h-[84px]">
+    <nav className="fixed w-full top-[96px] lg:top-[48px] left-0 z-50 bg-darkish text-light shadow-xl px-6 py-2 h-[84px]">
       <div className="flex w-full h-full mx-auto justify-between text-center gap-20">
         <div className="flex justify-start">
           <Link
@@ -31,7 +31,7 @@ const Navbar = () => {
               alt="logo"
               className="h-[75px] w-auto cursor-pointer object-contain"
             />
-            <p className="text-primary text-[28px] cursor-pointer lg:block hidden text-lightGold font-bold font-title">
+            <p className="text-primary text-[28px] cursor-pointer lg:block hidden text-midGold font-bold font-title">
               Τα Χρυσά Κλειδιά
             </p>
           </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 alt={link.alt}
                 className={`${
                   active === link.text ? "text-dark" : ""
-                } text-[20px] cursor-pointer hover:text-lightGold hover:text-[22px] font-bold font-links`}
+                } text-[20px] text-midGold cursor-pointer hover:text-lightGold hover:text-[22px] font-bold font-links`}
                 onClick={() => handleLinkClick(link)}
               >
                 {link.text}

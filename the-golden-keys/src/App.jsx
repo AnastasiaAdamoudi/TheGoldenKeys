@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import { Header, Navbar, Footer, FloatingContactIcons } from "./components/common";
-import { LandingPage, About, Services, ImageGallery, VideoGallery, Contact } from "./pages";
+import { LandingPage, About, Services, Areas, Gallery, Contact } from "./pages";
 
 const App = () => {
 
@@ -29,8 +29,8 @@ const App = () => {
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/images" element={<ImageGallery />} />
-          <Route path="/videos" element={<VideoGallery />} />
+          <Route path="/areas" element={<Areas />} />
+          <Route path="/media" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer

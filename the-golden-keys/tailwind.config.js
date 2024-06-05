@@ -6,7 +6,7 @@ export const theme = {
     fontFamily: {
       title: ['EB Garamond'],
       body: ['Roboto'],
-      links: ['Zen Maru Gothic'],
+      links: ['Arial'],
       fallbacks: {
         title: ['Roboto', 'Arial', 'sans-serif'],
         body: ['Roboto', 'Arial', 'sans-serif'],
@@ -16,10 +16,12 @@ export const theme = {
     colors: {
       light: "#F1F2F1",
       dark: "#0A0A0A",
+      darkish: "#191919",
       reddish: "#FF3333",
       darkGold: "#B08D57",
-      brightGold: "#D0A339",
-      lightGold: "#EECF6D",
+      brightGold: "#c38d04",
+      midGold: "#e8ac3e",
+      lightGold: "#E9D686",
       "black-100": "#100d25",
       "black-200": "#090325",
       "white-100": "#f3f3f3",

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const VideoGallery = () => {
+const Areas = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const VideoGallery = () => {
   )
 }
 
-export default VideoGallery;
+export default Areas;
