@@ -16,7 +16,6 @@ const App = () => {
   };
 
   return (
-    <div className="bg-cover bg-n-repeat bg-center bg-background flex flex-col justify-center items-center h-screen w-screen overflow-hidden">
     <Router>
       <div
         id="scroll-container"
@@ -40,7 +39,6 @@ const App = () => {
         />
       </div>
     </Router>
-    </div>
   );
 }
 
