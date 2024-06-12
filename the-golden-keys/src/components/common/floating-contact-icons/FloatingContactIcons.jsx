@@ -23,8 +23,8 @@ const FloatingContactIcons = () => {
   return (
     <div
       ref={floatingIconsRef}
-      className="fixed left-4 z-10 flex flex-col items-start gap-2 p-4"
-      style={{ top: '50%', transform: 'translateY(-50%)' }}
+      className="fixed left-4 z-10 flex flex-col items-start gap-2 mt-60 lg:mt-20"
+      style={{ top: '40%', transform: 'translateY(-50%)' }}
     >
       {contactIcons.map((icon) => (
         <a

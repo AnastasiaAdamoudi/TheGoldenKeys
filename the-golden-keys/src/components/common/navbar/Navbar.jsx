@@ -45,7 +45,7 @@ const Navbar = () => {
                 alt={link.alt}
                 className={`${
                   active === link.text ? "text-dark" : ""
-                } text-[20px] text-midGold cursor-pointer hover:text-lightGold hover:text-[22px] font-bold font-links`}
+                } text-[20px] text-midGold cursor-pointer hover:text-reddish hover:text-[22px] font-bold font-links`}
                 onClick={() => handleLinkClick(link)}
               >
                 {link.text}
