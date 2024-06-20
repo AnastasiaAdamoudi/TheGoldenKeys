@@ -5,8 +5,9 @@ import {
   floatFromRightSectionTitle,
   floatFromLeftLowerBar,
 } from "../../motion/section-title";
+import { reviews } from "../../data/reviews";
 
-const About = () => {
+const Reviews = () => {
   const photoRef = useRef();
   const textRef = useRef();
 
@@ -15,8 +16,8 @@ const About = () => {
 
   return (
     <section
-      id="about"
-      className="bg-darkish top-0 left-0 right-0 w-screen h-auto min-h-screen mx-auto overflow-hidden z-1 pt-[130px] lg:pt-[80px]"
+      id="reviews"
+      className="bg-gradient-to-b from-darkish to-reddish top-0 left-0 right-0 w-screen h-auto min-h-screen mx-auto overflow-hidden z-1 pt-[130px] lg:pt-[80px]"
     >
       <motion.div className="flex flex-col items-center lg:items-start mx-auto lg:mx-0 justify-center lg:justify-start max-w-[300px]">
         <motion.div
@@ -36,7 +37,7 @@ const About = () => {
             whileInView="animate"
             viewport={{ once: true }}
           >
-            ΠΡΟΦΙΛ
+            ΑΞΙΟΛΟΓΗΣΕΙΣ ΠΕΛΑΤΩΝ
           </motion.h1>
         </motion.div>
         <motion.div
@@ -53,4 +54,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Reviews;

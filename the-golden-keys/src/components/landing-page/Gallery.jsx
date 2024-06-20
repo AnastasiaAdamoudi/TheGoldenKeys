@@ -6,7 +6,7 @@ import {
   floatFromLeftLowerBar,
 } from "../../motion/section-title";
 
-const About = () => {
+const Gallery = () => {
   const photoRef = useRef();
   const textRef = useRef();
 
@@ -15,7 +15,7 @@ const About = () => {
 
   return (
     <section
-      id="about"
+      id="gallery"
       className="bg-darkish top-0 left-0 right-0 w-screen h-auto min-h-screen mx-auto overflow-hidden z-1 pt-[130px] lg:pt-[80px]"
     >
       <motion.div className="flex flex-col items-center lg:items-start mx-auto lg:mx-0 justify-center lg:justify-start max-w-[300px]">
@@ -36,7 +36,7 @@ const About = () => {
             whileInView="animate"
             viewport={{ once: true }}
           >
-            ΠΡΟΦΙΛ
+            ΣΥΛΛΟΓΗ ΠΟΛΥΜΕΣΩΝ
           </motion.h1>
         </motion.div>
         <motion.div
@@ -53,4 +53,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Gallery;

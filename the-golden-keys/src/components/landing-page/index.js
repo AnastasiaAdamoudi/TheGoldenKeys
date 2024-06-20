@@ -1,8 +1,8 @@
 import Hero from './Hero';
 import About from './About';
+import Areas from './Areas';
 import Services from './Services';
-import ImagesDisplay from './ImagesDisplay';
-import VideosDisplay from './VideosDisplay';
-import Contact from './Contact';
+import Gallery from './Gallery';
+import Reviews from './Reviews';
 
-export { Hero, About, Services, ImagesDisplay, VideosDisplay, Contact };
+export { Hero, About, Areas, Services, Gallery, Reviews };
