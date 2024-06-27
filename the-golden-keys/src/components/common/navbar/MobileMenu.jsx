@@ -7,7 +7,8 @@ const MobileMenu = ({ active, setActive, mobile, setMobile, navbarLinks }) => {
   return (
     <motion.div
       className="flex lg:hidden absolute right-0 top-[84px] w-full h-auto mx-0 my-0
-        z-10 flex-col items-center gap-60 bg-lightGold text-dark"
+        flex-col items-center gap-60 bg-lightGold text-dark"
+        style={{ zIndex: 10 }}
       variants={mobileNav}
       initial="initial"
       animate="animate"

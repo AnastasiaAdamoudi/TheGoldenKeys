@@ -6,6 +6,7 @@ import {
   floatFromLeftLowerBar,
 } from "../../motion/section-title";
 import { reviews } from "../../data/reviews";
+import { SectionTitle } from "../common/titles";
 
 const Reviews = () => {
   const photoRef = useRef();
@@ -19,37 +20,9 @@ const Reviews = () => {
       id="reviews"
       className="bg-gradient-to-b from-darkish to-reddish top-0 left-0 right-0 w-screen h-auto min-h-screen mx-auto overflow-hidden z-1 pt-[130px] lg:pt-[80px]"
     >
-      <motion.div className="flex flex-col items-center lg:items-start mx-auto lg:mx-0 justify-center lg:justify-start max-w-[300px]">
-        <motion.div
-          className="flex justify-center text-center mx-auto"
-          variants={floatFromLeftUpperBar}
-          initial="initial"
-          whileInView="animate"
-          viewport={{ once: true }}
-        >
-          <motion.hr className="w-[280px] my-2 border-2 border-reddish" />
-        </motion.div>
-        <motion.div className="flex flex-col text-center justify-center lg:text-start mx-auto lg:mx-4">
-          <motion.h1
-            className="font-subtitle text-light text-4xl"
-            variants={floatFromRightSectionTitle}
-            initial="initial"
-            whileInView="animate"
-            viewport={{ once: true }}
-          >
-            ΑΞΙΟΛΟΓΗΣΕΙΣ ΠΕΛΑΤΩΝ
-          </motion.h1>
-        </motion.div>
-        <motion.div
-          className="flex justify-center text-center mx-auto"
-          variants={floatFromLeftLowerBar}
-          initial="initial"
-          whileInView="animate"
-          viewport={{ once: true }}
-        >
-          <motion.hr className="w-[280px] my-2 border-2 border-reddish" />
-        </motion.div>
-      </motion.div>
+      
+      <SectionTitle title="ΑΞΙΟΛΟΓΗΣΕΙΣ ΠΕΛΑΤΩΝ" />
+
     </section>
   );
 };

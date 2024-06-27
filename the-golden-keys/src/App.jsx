@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
-import { Header, Navbar, Footer, FloatingContactIcons } from "./components/common";
+import { Header, Navbar, Footer } from "./components/common";
 import { LandingPage, About, Services, Areas, Gallery, Contact } from "./pages";
 
 const App = () => {
@@ -23,7 +23,6 @@ const App = () => {
       >
         <Header />
         <Navbar />
-        <FloatingContactIcons />
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<About />} />

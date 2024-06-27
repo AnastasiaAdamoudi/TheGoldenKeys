@@ -4,20 +4,22 @@ import {
   Areas,
   Services,
   Gallery,
-  Reviews
-} from '../components/landing-page';
+  Reviews,
+} from "../components/landing-page";
+import { FloatingContactIcons } from "../components/common";
 
 const LandingPage = () => {
   return (
     <div className="bg-cover bg-n-repeat bg-center overflow-hidden">
+      <FloatingContactIcons />
       <Hero />
-      <About />  
+      <About />
       <Areas />
       <Services />
-      <Gallery />  
-      <Reviews /> 
+      <Gallery />
+      <Reviews />
     </div>
-  )
-}
+  );
+};
 
 export default LandingPage;
