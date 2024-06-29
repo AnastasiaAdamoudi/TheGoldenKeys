@@ -7,8 +7,14 @@ import {
   Reviews,
 } from "../components/landing-page";
 import { FloatingContactIcons } from "../components/common";
+import PropTypes from "prop-types";
 
-const LandingPage = () => {
+const LandingPage = ( { isSmallScreen } ) => {
+
+  LandingPage.propTypes = {
+    isSmallScreen: PropTypes.bool,
+  };
+  
   return (
     <div className="bg-cover bg-n-repeat bg-center overflow-hidden">
       <FloatingContactIcons />
