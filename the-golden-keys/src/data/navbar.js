@@ -4,23 +4,23 @@ export const navbarLinks = [
         link: "/",
         alt: "home",
     },
-    {
-        text: "Προφίλ",
-        link: "/about",
-        alt: "about",
-    },
+    // {
+    //     text: "Προφίλ",
+    //     link: "/about",
+    //     alt: "about",
+    // },
     {
         text: "Υπηρεσίες",
         link: "/services",
         alt: "services",
     },
     {
-        text: "Περιοχές",
+        text: "Περιοχές Εξυπηρέτησης",
         link: "/areas",
         alt: "areas",
     },
     {
-        text: "Συλλογή",
+        text: "Συλλογή Φωτογραφιών",
         link: "/gallery",
         alt: "gallery",
     },

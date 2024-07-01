@@ -40,13 +40,13 @@ const Areas = ({ isSmallScreen }) => {
         </motion.div>
         <motion.div className="w-full lg:w-1/2 h-auto lg:ml-4 lg:mr-0">
         <motion.div
-          className="flex flex-col justify-center items-center lg:items-start w-[85%] lg:w-[75%] lg:-ml-40 mx-auto py-4 mt-5 lg:mt-0 bg-white drop-shadow-xl text-darkish font-body text-md lg:text-xl"
+          className="flex flex-col justify-center items-center lg:items-start px-2 w-[320px] lg:w-[75%] lg:-ml-40 mx-auto py-4 -mt-0 lg:mt-0 bg-white drop-shadow-xl text-darkish font-body text-md lg:text-xl"
           variants={floatFromRightAreas}
           initial="initial"
           ref={textRef}
           animate={textInView ? "animate" : "initial"}
         >
-          <motion.p className="w-full flex flex-col items-center text-center mx-auto w-[95%]">
+          <motion.p className="flex flex-col items-center text-center mx-auto w-[95%]">
             <span className="font-bold">Διεύθυνση καταστήματος:</span> Χρήστου
             Ράπτη 47, Αμπελόκηποι Θεσσαλονίκης, 561 23
           </motion.p>

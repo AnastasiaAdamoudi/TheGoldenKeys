@@ -19,7 +19,7 @@ const Gallery = () => {
       id="gallery"
       className="bg-darkish top-0 left-0 right-0 w-screen h-auto min-h-screen mx-auto overflow-hidden z-1 pt-[130px] lg:pt-[80px]"
     >
-      <SectionTitle title="ΣΥΛΛΟΓΗ ΠΟΛΥΜΕΣΩΝ" />
+      <SectionTitle title="ΣΥΛΛΟΓΗ ΦΩΤΟΓΡΑΦΙΩΝ" />
 
     </section>
   );
