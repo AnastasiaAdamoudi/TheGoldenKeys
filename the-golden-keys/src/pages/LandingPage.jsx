@@ -17,13 +17,13 @@ const LandingPage = ( { isSmallScreen } ) => {
   
   return (
     <div className="bg-cover bg-n-repeat bg-center overflow-hidden">
-      <FloatingContactIcons />
-      <Hero />
-      <About />
-      <Areas />
-      <Services />
-      <Gallery />
-      <Reviews />
+      <FloatingContactIcons isSmallScreen={isSmallScreen} />
+      <Hero isSmallScreen={isSmallScreen} />
+      <About isSmallScreen={isSmallScreen} />
+      <Areas isSmallScreen={isSmallScreen} />
+      <Services isSmallScreen={isSmallScreen} />
+      <Gallery isSmallScreen={isSmallScreen} />
+      <Reviews isSmallScreen={isSmallScreen} />
     </div>
   );
 };

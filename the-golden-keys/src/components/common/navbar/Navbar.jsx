@@ -32,7 +32,7 @@ const Navbar = () => {
               alt="logo"
               className="h-[75px] w-auto cursor-pointer object-contain"
             />
-            <p className="text-primary text-[28px] cursor-pointer lg:block hidden text-midGold font-bold font-title">
+            <p className="text-primary text-[28px] cursor-pointer md:block hidden text-midGold font-bold font-title">
               Τα Χρυσά Κλειδιά
             </p>
           </Link>
