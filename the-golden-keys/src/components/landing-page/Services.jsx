@@ -17,7 +17,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="bg-darkish top-0 left-0 right-0 w-screen h-auto min-h-screen mx-auto overflow-hidden z-1 pt-[130px] lg:pt-[80px]"
+      className="bg-darkish top-0 left-0 right-0 w-screen h-auto min-h-screen mx-auto overflow-hidden z-1 pt-10"
     >
       
       <SectionTitle title="ΥΠΗΡΕΣΙΕΣ" />
