@@ -4,13 +4,13 @@ import L from "leaflet";
 import { mapPin, pinShadow } from "../../assets/location";
 import { locationData } from "../../data/location";
 import { ampelokipoi, stavroupoli, evosmos, polichni } from "../../data/areas";
+import { useMediaQuery } from "react-responsive";
 import PropTypes from "prop-types";
 
-const AreasMapDisplay = ({ visibleAreas, isSmallScreen }) => {
+const AreasMapDisplay = ({ visibleAreas }) => {
 
   AreasMapDisplay.propTypes = {
     visibleAreas: PropTypes.object,
-    isSmallScreen: PropTypes.bool,
   };
 
   const customMarker = new L.icon({
@@ -30,12 +30,16 @@ const AreasMapDisplay = ({ visibleAreas, isSmallScreen }) => {
     { name: 'Πολίχνη', coordinates: polichni }
   ];
 
+  const smallScreen = useMediaQuery({ query: "(max-width: 768px)" });
+
+  const zoom = smallScreen ? 11 : 12;
+
   return (
     <div>
       <MapContainer
         attribution='&amp;copy <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
         center={{ lat: locationData.lat, lng: locationData.lng }}
-        zoom={{ isSmallScreen } ? 11 : 13}
+        zoom={zoom}
         scrollWheelZoom={false}
         className="w-[300px] md:w-[450px] xl:w-[600px] h-[250px] md:h-[320px] xl:h-[400px] z-0 object-contain drop-shadow-xl"
       >

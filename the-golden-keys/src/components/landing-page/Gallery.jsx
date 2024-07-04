@@ -4,7 +4,7 @@ import { photos } from "../../assets/image-gallery";
 import { SectionTitle } from "../common/titles";
 import { Link } from "react-router-dom";
 
-const Gallery = ({ isSmallScreen }) => {
+const Gallery = () => {
   return (
     <section
     id="gallery"

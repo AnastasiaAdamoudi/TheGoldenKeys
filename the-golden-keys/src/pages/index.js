@@ -1,8 +1,7 @@
 import LandingPage from './LandingPage';
-import About from './About';
-import Services from './Services';
-import Areas from './Areas';
-import Gallery from './Gallery';
-import Contact from './Contact';
+import ServicesPage from './ServicesPage';
+import AreasPage from './AreasPage';
+import GalleryPage from './GalleryPage';
+import ContactPage from './ContactPage';
 
-export { LandingPage, About, Services, Areas, Gallery, Contact };
+export { LandingPage, ServicesPage, AreasPage, GalleryPage, ContactPage };

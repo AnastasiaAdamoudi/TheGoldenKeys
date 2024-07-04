@@ -1,11 +1,10 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../motion/home-sections";
 import { reviews } from "../../data/reviews";
-import { reviews as reviewsImg } from "../../assets/reviews";
-import ReviewCard from "./ReviewCard";
+import ReviewCard from "../reviews/ReviewCard";
 import { SectionTitle } from "../common/titles";
 
-const Reviews = ({ isSmallScreen }) => {
+const Reviews = () => {
   return (
     <section
     id="reviews"

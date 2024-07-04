@@ -1,4 +1,45 @@
-export const services = [
+import {
+    keys,
+    louketa,
+    thorakismenesKleidaries,
+    immobilizer,
+    unlocking,
+} from "../assets/services/index.js";
+
+export const servicesSmall = [
+    {
+        id: 1,
+        title: "Κλειδιά και αντικλείδια",
+        img: keys,
+        alt: "Κλειδιά και αντικλείδια",
+    },
+    {
+        id: 2,
+        title: "Κλειδαριές και λουκέτα",
+        img: louketa,
+        alt: "Κλειδαριές και λουκέτα",
+    },
+    {
+        id: 3,
+        title: "Θωρακισμένες κλειδαριές",
+        img: thorakismenesKleidaries,
+        alt: "Θωρακισμένες κλειδαριές",
+    },
+    {
+        id: 4,
+        title: "Κλειδιά immobilizer για αυτοκίνητα και μοτοσυκλέτες",
+        img: immobilizer,
+        alt: "Κλειδιά immobilizer",
+    },
+    {
+        id: 5,
+        title: "Ξεκλείδωμα σπιτιών και οχημάτων",
+        img: unlocking,
+        alt: "Ξεκλείδωμα μηχανής",
+    },
+];
+
+export const servicesLarge = [
     {
         id: 1,
         title: "Κλειδιά",
@@ -26,8 +67,8 @@ export const services = [
     },
     {
         id: 6,
-        title: "Ανοίγματα αυτοκινήτων",
-        description: "Άνοιγμα αυτοκινήτων γρήγορα και χωρίς ζημιά",
+        title: "Ξεκλείδωμα σπιτιών και οχημάτων",
+        description: "Ξεκλείδωμα πορτών, αυτοκινήτων, μοτοσυκλετών και κλειδαριών γρήγορα και χωρίς ζημιά",
     },
     {
         id: 7,

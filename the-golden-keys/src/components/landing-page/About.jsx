@@ -6,12 +6,9 @@ import {
 } from "../../motion/home-sections";
 import { SectionTitle } from "../common/titles";
 import { profileLP } from "../../assets/profile";
-import PropTypes from "prop-types";
 
-const About = ({ isSmallScreen }) => {
-  About.propTypes = {
-    isSmallScreen: PropTypes.bool,
-  };
+const About = () => {
+
   const photoRef = useRef();
   const textRef = useRef();
   const photoInView = useInView(photoRef, { threshold: 0.5 });

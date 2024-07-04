@@ -5,15 +5,11 @@ import {
   floatFromRightAreas,
 } from "../../motion/home-sections";
 import { SectionTitle } from "../common/titles";
-import LocationMapDisplay from "./LocationMapDisplay";
+import LocationMapDisplay from "../areas/LocationMapDisplay";
 import { keyBulletPoint } from "../../assets/footer";
 import { areaData } from "../../data/location";
-import PropTypes from "prop-types";
 
-const Areas = ({ isSmallScreen }) => {
-  Areas.propTypes = {
-    isSmallScreen: PropTypes.bool,
-  };
+const Areas = () => {
 
   const mapRef = useRef();
   const textRef = useRef();

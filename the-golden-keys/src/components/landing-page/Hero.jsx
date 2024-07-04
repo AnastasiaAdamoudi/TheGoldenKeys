@@ -10,7 +10,6 @@ import {
   floatFromLeftHeroImage,
   floatFromUpHeroImage,
   floatFromRightHeroImage,
-  floatFromUpHeroTitle,
   sliderVariant,
   downArrowVariant,
   imageVariants,
