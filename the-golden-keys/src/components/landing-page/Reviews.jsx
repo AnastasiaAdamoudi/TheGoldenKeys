@@ -8,7 +8,7 @@ const Reviews = () => {
   return (
     <section
     id="reviews"
-    className="bg-gradient-to-b from-darkish to-reddish top-0 left-0 right-0 w-screen h-auto min-h-screen mx-auto overflow-hidden pt-10"
+    className="bg-gradient-to-b from-darkish to-reddish top-0 left-0 right-0 w-screen h-auto mx-auto overflow-hidden py-20"
   >
     
     <SectionTitle title="ΑΞΙΟΛΟΓΗΣΕΙΣ ΠΕΛΑΤΩΝ" />
@@ -45,7 +45,7 @@ const Reviews = () => {
         target="_blank" rel="noreferrer" 
         >
         <motion.div 
-        className="flex flex-col justify-center items-center mt-8 mb-8 rounded-lg shadow-lg bg-gradient-to-br from-yellow-400 via-blue-700 to-green-500 p-2"
+        className="flex flex-col justify-center items-center mt-8 mb-0 rounded-lg shadow-lg bg-gradient-to-br from-yellow-400 via-blue-700 to-green-500 p-2"
         variants={fadeIn}
         initial="hidden"
         whileInView="show"

@@ -8,7 +8,7 @@ const Gallery = () => {
   return (
     <section
     id="gallery"
-    className="bg-darkish top-0 left-0 right-0 w-screen h-auto min-h-screen mx-auto overflow-hidden"
+    className="bg-darkish top-0 left-0 right-0 w-screen h-auto mx-auto overflow-hidden pt-20"
   >
     
     <SectionTitle title="ΣΥΛΛΟΓΗ ΦΩΤΟΓΡΑΦΙΩΝ" />
@@ -42,7 +42,7 @@ const Gallery = () => {
         </motion.div>
 
         <motion.div 
-        className="flex flex-col justify-center items-center mt-4 mb-4"
+        className="flex flex-col justify-center items-center mt-10 mb-4"
         variants={fadeIn}
         initial="hidden"
         whileInView="show"

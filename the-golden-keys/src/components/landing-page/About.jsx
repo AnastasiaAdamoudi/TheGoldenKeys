@@ -17,7 +17,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-darkish top-0 left-0 right-0 w-screen h-auto min-h-screen mx-auto overflow-hidden pt-10"
+      className="bg-darkish top-0 left-0 right-0 w-screen h-auto mx-auto overflow-hidden pt-20"
     >
       <SectionTitle title="ΠΡΟΦΙΛ" />
       <div className="flex flex-col lg:flex-row items-center justify-center mx-auto mt-2 lg:mt-6 mb-8">

@@ -71,3 +71,16 @@ export const fadeIn = {
     },
   },
 };
+
+export const fadeInSlow = {
+  hidden: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      delay: 3,
+      duration: 1.8,
+    },
+  },
+};

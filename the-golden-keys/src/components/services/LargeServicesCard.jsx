@@ -10,18 +10,18 @@ const LargeServicesCard = ({ title, description }) => {
 
   return (
     <motion.div
-      className="flex flex-row mx-auto gap-1 justify-center text-center my-auto w-[250px] h-[240px] px-2 bg-light m-2 shadow-lg overflow-hidden"
+      className="flex flex-col mx-auto gap-1 justify-start text-start my-auto w-[270px] lg:w-[350px] xl:w-[400px] h-auto px-2 bg-light m-2 overflow-hidden"
       style={{ zIndex: 2 }}
-      >
-        <div className="px-2 flex flex-col justify-start text-center mx-auto">
-          <p className="text-primary font-body text-center text-[14px] md:text-[16px] pb-2">
-            {title}
-          </p>
-          <p className="text-primary font-subtitle text-center text-[14px] font-bold py-1 italic">
-            {description}
-          </p>
-        </div>
-      </motion.div>
+    >
+      <div className="px-2 flex flex-col justify-start text-start">
+        <p className="text-primary font-subtitle font-bold text-start text-[14px] md:text-[16px] pb-1">
+          {title}
+        </p>
+        <p className="text-primary font-body text-start text-[14px] py-1 italic">
+          {description}
+        </p>
+      </div>
+    </motion.div>
   );
 };
 

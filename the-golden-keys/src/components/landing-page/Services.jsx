@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <motion.div
-    className="bg-darkish top-0 left-0 right-0 w-screen h-auto min-h-screen mx-auto overflow-hidden pt-10 pb-12 lg:pb-2"
+    className="bg-darkish top-0 left-0 right-0 w-screen h-auto mx-auto overflow-hidden pt-20"
   >
     
     <SectionTitle title="ΥΠΗΡΕΣΙΕΣ" />
