@@ -8,7 +8,7 @@ const Gallery = () => {
   return (
     <section
     id="gallery"
-    className="bg-darkish top-0 left-0 right-0 w-screen h-auto mx-auto overflow-hidden pt-20"
+    className="bg-darkish top-0 left-0 right-0 w-full min-w-screen h-auto mx-auto overflow-hidden pt-20"
   >
     
     <SectionTitle title="ΣΥΛΛΟΓΗ ΦΩΤΟΓΡΑΦΙΩΝ" />

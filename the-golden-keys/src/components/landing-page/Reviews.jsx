@@ -8,7 +8,7 @@ const Reviews = () => {
   return (
     <section
     id="reviews"
-    className="bg-gradient-to-b from-darkish to-reddish top-0 left-0 right-0 w-screen h-auto mx-auto overflow-hidden py-20"
+    className="bg-gradient-to-b from-darkish to-reddish top-0 left-0 right-0 w-full min-w-screen h-auto mx-auto overflow-hidden py-20"
   >
     
     <SectionTitle title="ΑΞΙΟΛΟΓΗΣΕΙΣ ΠΕΛΑΤΩΝ" />

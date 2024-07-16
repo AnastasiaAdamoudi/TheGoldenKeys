@@ -34,12 +34,12 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="bg-gradient-to-b from-reddish to-darkish top-0 left-0 w-screen h-auto min-h-screen mx-auto overflow-hidden z-1 mt-[100px] lg:mt-[80px] flex flex-col items-center justify-center"
+      className="bg-gradient-to-b from-reddish to-darkish top-0 left-0 right-0 w-full min-w-screen h-auto min-h-screen mx-auto overflow-hidden z-1 mt-[100px] lg:mt-[80px] flex flex-col items-center justify-center"
     >
-      <div className="flex items-center justify-center w-full max-w-7xl mx-auto px-10">
-        <div className="w-full flex items-center justify-center gap-4 lg:gap-0">
+      <div className="flex items-center justify-center w-full max-w-7xl mx-auto px-10 lg:px-16">
+        <div className="w-full flex items-center justify-center gap-4 lg:gap-0 mx-auto">
           {/* Display the three images horizontally for large screens */}
-          <div className="hidden lg:flex gap-4">
+          <div className="hidden lg:flex lg:justify-center lg:text-center lg:mx-auto lg:flex-row gap-4">
             <motion.img
               key={0}
               src={images[0]}
