@@ -125,9 +125,9 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="flex flex-row justify-center items-center mb-4 lg:mb-0">
-          <p className="text-light font-body font-bold text-lg">
+          <p className="text-light font-body font-bold text-md">
             Copyright
-            <span className="text-secondary font-links font-bold text-lg mx-2">
+            <span className="text-secondary font-links font-bold text-md mx-2">
               ©
             </span>
             2024
@@ -142,7 +142,7 @@ const Footer = () => {
 
         {/* Developer */}
         <div className="flex flex-col justify-center items-center lg:justify-end lg:items-end">
-          <p className="text-light font-body font-bold text-md">
+          <p className="text-light font-body font-bold text-sm">
             Σχεδιασμός και κατασκευή ιστότοπου:
           </p>
           <a

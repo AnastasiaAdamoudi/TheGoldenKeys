@@ -20,7 +20,7 @@ export const navbarLinks = [
         alt: "areas",
     },
     {
-        text: "Συλλογή Φωτογραφιών",
+        text: "Συλλογή Πολυμέσων",
         link: "/gallery",
         alt: "gallery",
     },

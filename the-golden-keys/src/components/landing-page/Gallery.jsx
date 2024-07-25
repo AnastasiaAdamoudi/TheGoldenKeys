@@ -11,7 +11,7 @@ const Gallery = () => {
     className="bg-darkish top-0 left-0 right-0 w-full min-w-screen h-auto mx-auto overflow-hidden pt-20"
   >
     
-    <SectionTitle title="ΣΥΛΛΟΓΗ ΦΩΤΟΓΡΑΦΙΩΝ" />
+    <SectionTitle title="ΣΥΛΛΟΓΗ ΠΟΛΥΜΕΣΩΝ" />
 
       <motion.div className="flex flex-col justify-evenly items-center mt-10"
       style={{ zIndex: 2 }}
@@ -53,7 +53,7 @@ const Gallery = () => {
             className="bg-midGold text-dark hover:bg-reddish hover:text-light font-links font-bold text-md no-underline cursor-pointer py-3 px-4 
             rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-midGold focus:ring-opacity-50 transition duration-300 ease-in-out"
           >
-            Δείτε όλες τις φωτογραφίες
+            Δείτε όλες τις φωτογραφίες και τα βίντεο
           </button>
         </Link>
         </motion.div>

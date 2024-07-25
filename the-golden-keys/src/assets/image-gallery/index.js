@@ -179,10 +179,6 @@ import image173 from './gallery-page/173.jpeg';
 import image174 from './gallery-page/174.jpeg';
 import image175 from './gallery-page/175.jpeg';
 import image176 from './gallery-page/176.jpeg';
-import image177 from './gallery-page/177.jpeg';
-import image178 from './gallery-page/178.jpeg';
-import image179 from './gallery-page/179.jpeg';
-import image180 from './gallery-page/180.jpeg';
 
 export const photos = [
     {
@@ -1087,25 +1083,5 @@ export const galleryImages = [
         id: 176,
         src: image176,
         alt: 'Εικόνα 176',
-    },
-    {
-        id: 177,
-        src: image177,
-        alt: 'Εικόνα 177',
-    },
-    {
-        id: 178,
-        src: image178,
-        alt: 'Εικόνα 178',
-    },
-    {
-        id: 179,
-        src: image179,
-        alt: 'Εικόνα 179',
-    },
-    {
-        id: 180,
-        src: image180,
-        alt: 'Εικόνα 180',
     },
 ];
